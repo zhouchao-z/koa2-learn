@@ -8,7 +8,6 @@ const logger = require('koa-logger')
 
 const index = require('./routes/index')
 const users = require('./routes/users')
-console.log(process.env.NODE_ENV);
 // error handler
 onerror(app)
 
