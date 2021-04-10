@@ -7,5 +7,11 @@
   <body>
     <h1><%= title %></h1>
     <p>EJS Welcome to <%= title %></p>
+
+    <% if(locals.isMe) { %> 
+      <a href="#">有人@我</a>
+    <% } else { %> 
+      <button>关注</button>
+    <% } %> 
   </body>
 </html>
